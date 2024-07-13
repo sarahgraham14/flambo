@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const initialize=async function(e,o){return e.header("Access-Control-Allow-Origin","*"),e.header("Access-Control-Allow-Headers","*"),e.header("Access-Control-Allow-Methods","*"),o()};exports["default"]=initialize;

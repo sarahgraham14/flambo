@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const socket_io_1=require("socket.io");class Server extends socket_io_1.Server{async route(e){e.execute(this)}}exports["default"]=Server;

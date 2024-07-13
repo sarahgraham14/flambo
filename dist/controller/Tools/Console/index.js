@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class Console{params=[];flags={};constructor(s){s=s.slice(2);this.params=s.filter(s=>!s.startsWith("--"));for(const a of s.filter(s=>s.startsWith("--"))){var[t,e]=a.slice(2).split("=");this.flags[t]=e||!0}}async execute(s){await s.execute(this.params,this.flags)}}exports["default"]=Console;

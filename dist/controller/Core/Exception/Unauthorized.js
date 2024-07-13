@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{"default":e}};Object.defineProperty(exports,"__esModule",{value:!0});const _1=__importDefault(require("."));class UnauthorizedException extends _1["default"]{constructor(e="Unauthorized"){super(e)}}exports["default"]=UnauthorizedException;

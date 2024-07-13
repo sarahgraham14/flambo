@@ -1,0 +1,1 @@
+"use strict";function default_1(e){return e.json({message:"Welcome to API interface 👋"})}Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=default_1;

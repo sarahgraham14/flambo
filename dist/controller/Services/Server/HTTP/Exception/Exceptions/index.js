@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class HttpException extends Error{status;constructor(t,s=400){super(t),this.status=s}toJSON(){return{status:this.status,message:this.message}}}exports["default"]=HttpException;

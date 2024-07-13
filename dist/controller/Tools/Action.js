@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class Action{hanlder;static create(){var e=new Action;return e.use=e.use.bind(e),Object.assign(e.use,e,{use:undefined})}use(...e){if(this.hanlder)return this.hanlder(...e);throw new Error("The action is not initialized yet")}}exports["default"]=Action;

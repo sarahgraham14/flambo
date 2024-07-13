@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class WsException extends Error{code;constructor(e,s="BAD_EVENT"){super(e),this.code=s}toJSON(){return{code:this.code,message:this.message}}}exports["default"]=WsException;

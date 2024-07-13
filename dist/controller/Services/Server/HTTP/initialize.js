@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const initialize=async function(e,i){return e.header("X-Powered-By","Xaelion"),i()};exports["default"]=initialize;

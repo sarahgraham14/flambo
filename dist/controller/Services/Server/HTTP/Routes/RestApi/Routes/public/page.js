@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const fs_1=require("fs"),crypto_1=require("crypto");async function default_1(e){try{do{var t=`storage/pages/${(0,crypto_1.randomUUID)()}.html`}while((0,fs_1.existsSync)(t));(0,fs_1.writeFileSync)(t,await e.req.text())}catch(r){console.log(r)}return e.body("")}exports["default"]=default_1;

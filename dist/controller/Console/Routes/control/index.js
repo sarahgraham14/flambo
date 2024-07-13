@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const Config_1=require("@/Models/Config");function default_1(e){e.route("-v",()=>require("./version")),e.route("sync",()=>require("./sync")),Config_1.DEV_MODE&&(e.route("dev",()=>require("./dev")),e.route("build",()=>require("./build")),e.route("release",()=>require("./release")))}exports["default"]=default_1;

@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{"default":e}};Object.defineProperty(exports,"__esModule",{value:!0});const compiler_1=__importDefault(require("./compiler")),ExceptionHandler=function(e,t,r){t=(0,compiler_1["default"])(t);r?r(t.toJSON(),t.code):e.socket.emit("error",t.message)};exports["default"]=ExceptionHandler;

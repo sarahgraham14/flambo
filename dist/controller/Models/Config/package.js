@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{"default":e}};Object.defineProperty(exports,"__esModule",{value:!0});const Json_1=__importDefault(require("@/Tools/Json")),application=new Json_1["default"]("./package.json").value;exports["default"]=application;

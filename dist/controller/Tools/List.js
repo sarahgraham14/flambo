@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class List{items;index=0;constructor(e){this.items=e}get thereIsMore(){return this.index<=this.items.length-1}next(){var e=this.items[this.index];return this.index++,e}remaining(){return this.items.slice(this.index,this.items.length-1)}}exports["default"]=List;

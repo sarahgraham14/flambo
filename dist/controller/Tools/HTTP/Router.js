@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const hono_1=require("hono");class Router extends hono_1.Hono{static create(e,o){o=new Router(o);return e(o),o}}exports["default"]=Router;

@@ -1,0 +1,31 @@
+{
+    "name": "flambo",
+    "version": "1.4.0",
+    "private": true,
+    "author": "Zohayr SLILEH",
+    "license": "ISC",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "sync": "node console sync"
+    },
+    "dependencies": {
+        "@hono/node-server": "^1.9.1",
+        "archiver": "^6.0.1",
+        "axios": "^1.7.2",
+        "bcrypt": "^5.1.1",
+        "chalk": "^4.1.2",
+        "chokidar": "^3.5.3",
+        "decompress": "^4.2.1",
+        "dotenv": "^16.3.1",
+        "enquirer": "^2.4.1",
+        "hono": "^4.2.1",
+        "node-rsa": "^1.1.1",
+        "nodemailer": "^6.9.12",
+        "pm2": "^5.3.1",
+        "socket.io": "^4.7.2",
+        "sqlite3": "^5.1.6",
+        "typeorm": "^0.3.20",
+        "zod": "^3.22.4"
+    }
+}
